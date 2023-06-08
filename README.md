@@ -1,13 +1,12 @@
 1. SSH into the Nexus Cluster
-- userid
-- submission nodes in format of: nexuscbcb[00,01].umiacs.umd.edu
-
-EX) in Terminal or Command Prompt, type:
-```
-ssh someuser68@nexuscbcb00.umiacs.umd.edu
-```
-- will be propted to provide authentification
-- if connected on vpn, no extra step
+    - userid
+    - submission nodes in format of: nexuscbcb[00,01].umiacs.umd.edu
+    (EX) in Terminal or Command Prompt, type:
+    ```
+    ssh someuser68@nexuscbcb00.umiacs.umd.edu
+    ```
+    - will be propted to provide authentification
+    - if connected on vpn, no extra step
 
 2. Mounting remote directories into PC
     1. Downloading and Installing SSHFS https://osxfuse.github.io/
@@ -22,10 +21,10 @@ ssh someuser68@nexuscbcb00.umiacs.umd.edu
     - Map Network Drive option from "This PC"
 
 3. Creating a conda environment
-```
-module load conda
-conda create --prefix <path-to-installation/environment-name>
-e.g. conda create --prefix /fs/cbcb-scratch/someuser68/Minimap2
-source activate /fs/cbcb-scratch/someuser68/Minimap2
-conda install -c bioconda minimap2
-```
+    ```
+    module load conda
+    conda create --prefix <path-to-installation/environment-name>
+    e.g. conda create --prefix /fs/cbcb-scratch/someuser68/Minimap2
+    source activate /fs/cbcb-scratch/someuser68/Minimap2
+    conda install -c bioconda minimap2
+    ```
