@@ -10,11 +10,11 @@ ssh someuser68@nexuscbcb00.umiacs.umd.edu
 - if connected on vpn, no extra step
 
 2. Mounting remote directories into PC
-  2-1. Downloading and Installing SSHFS
+    1. Downloading and Installing SSHFS
     (MacOS)
     https://github.com/winfsp/sshfs-win (Windows)
-  2-2. Mounting drives in MACOS
-  2-3. Mounting drives in Windows 
+    2. Mounting drives in MACOS
+    3. Mounting drives in Windows 
     - Map Network Drive option from "This PC"
 
 3. Creating a conda environment
