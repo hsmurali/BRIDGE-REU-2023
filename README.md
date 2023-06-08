@@ -22,3 +22,10 @@ ssh someuser68@nexuscbcb00.umiacs.umd.edu
     - Map Network Drive option from "This PC"
 
 3. Creating a conda environment
+```
+module load conda
+conda create --prefix <path-to-installation/environment-name>
+e.g. conda create --prefix /fs/cbcb-scratch/someuser68/Minimap2
+source activate /fs/cbcb-scratch/someuser68/Minimap2
+conda install -c bioconda minimap2
+```
