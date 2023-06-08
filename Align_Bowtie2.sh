@@ -17,7 +17,8 @@ module load samtools/1.16
 READS_1=/fs/cbcb-scratch/hsmurali/REU_2023/Reads/MET0319_R1.fastq.gz
 READS_2=/fs/cbcb-scratch/hsmurali/REU_2023/Reads/MET0319_R2.fastq.gz
 REF=/fs/cbcb-scratch/hsmurali/REU_2023/GCA_000025765.1_ASM2576v1_genomic.fna
-OUT_DIR=/fs/cbcb-scratch/hsmurali/REU_2023_Test/
+OUT_DIR=/fs/cbcb-scratch/someuser68/REU_2023_Test/
+mkdir ${OUT_DIR}
 IDX=${OUT_DIR}GCA_000025765.1_ASM2576v1_genomic.idx
 
 ##BUILD A BOWTIE2 INDEX
