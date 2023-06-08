@@ -28,3 +28,5 @@
     source activate /fs/cbcb-scratch/someuser68/Minimap2
     conda install -c bioconda minimap2
     ```
+4. Test data cab ve found at
+    ```/fs/cbcb-scratch/hsmurali```
