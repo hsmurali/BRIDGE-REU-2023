@@ -2,7 +2,7 @@
 #SBATCH -J Minimap2 # Job name
 #SBATCH -o Minimap2.o # Name of output file
 #SBATCH -e Minimap2.e # Name of error file
-#SBATCH --mail-user=hsmurali@terpmail.umd.edu # Email for job info
+#SBATCH --mail-user=<user-name>@terpmail.umd.edu # Email for job info
 #SBATCH --mail-type=all # Get email for begin, end, and fail
 #SBATCH --time=01:00:00
 #SBATCH --partition=cbcb 
