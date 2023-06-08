@@ -15,10 +15,10 @@ ssh someuser68@nexuscbcb00.umiacs.umd.edu
     https://github.com/winfsp/sshfs-win (Windows)
     2. Mounting drives in MACOS
     3. ```
-    4. mkdir /users/someuser68-local/Mount
-    5. sshfs someuser68@nexuscbcb00.umiacs.umd.edu:/fs/cbcb-scratch/someuser68/ Mount
-    6. ```
-    7. Mounting drives in Windows 
+        mkdir /users/someuser68-local/Mount
+        sshfs someuser68@nexuscbcb00.umiacs.umd.edu:/fs/cbcb-scratch/someuser68/ Mount
+        ```
+    4. Mounting drives in Windows 
     - Map Network Drive option from "This PC"
 
 3. Creating a conda environment
