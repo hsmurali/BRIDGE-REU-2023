@@ -2,7 +2,9 @@
 
 1. userid
 2. submission nodes: nexuscbcb[00,01].umiacs.umd.edu
-(EX) in Terminal or Command Prompt, type:
+
+    In Terminal or Command Prompt, type:
+
     ```
     ssh someuser68@nexuscbcb00.umiacs.umd.edu
     ```
@@ -11,8 +13,11 @@
 
 ## Mounting remote directories into PC
 
-1. Download and Install SSHFS [MACOS](https://osxfuse.github.io/), [WINDOWS](https://github.com/winfsp/sshfs-win)
+1. Download and Install SSHFS 
+    - [MACOS](https://osxfuse.github.io/)
+    - [WINDOWS](https://github.com/winfsp/sshfs-win)
 2. Mounting drives in MACOS
+
     ```
     mkdir /users/someuser68-local/Mount
     sshfs someuser68@nexuscbcb00.umiacs.umd.edu:/fs/cbcb-scratch/someuser68/ Mount
@@ -24,8 +29,7 @@
 
 ```
 module load conda
-conda create --prefix <path-to-installation/environment-name>
-e.g. conda create --prefix /fs/cbcb-scratch/someuser68/Minimap2
+conda create --prefix <path-to-installation/environment-name>  # e.g. conda create --prefix /fs/cbcb-scratch/someuser68/Minimap2
 source activate /fs/cbcb-scratch/someuser68/Minimap2
 conda install -c bioconda minimap2
 ```
