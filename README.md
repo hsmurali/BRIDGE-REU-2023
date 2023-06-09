@@ -2,9 +2,7 @@
     - userid
     - submission nodes in format of: nexuscbcb[00,01].umiacs.umd.edu
     (EX) in Terminal or Command Prompt, type:
-    ```
-    ssh someuser68@nexuscbcb00.umiacs.umd.edu
-    ```
+    ```ssh someuser68@nexuscbcb00.umiacs.umd.edu```
     - will be propted to provide authentification
     - if connected on vpn, no extra step
 
