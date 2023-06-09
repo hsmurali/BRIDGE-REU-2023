@@ -31,6 +31,11 @@ In addition to accessing the remote directories on your terminal, mounting them 
         ```
         \\sshfs\someuser68@nexuscbcb00.umiacs.umd.edu
         ```
+        If you want to mount the scratch foler, use the following address instead:
+        ```
+        \\sshfs\someuser68@nexuscbcb00.umiacs.umd.edu/../../fs/nexus-scratch/someuser68
+        ```
+        Note that the actual address to the scratch folder uses a different syntax than that of Window's. Make sure the correct "slash" is used. 
     
     3. Check the box for "Connect using different credentials" then click "Finnish." 
 
